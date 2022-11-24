@@ -1,5 +1,7 @@
 # Africa
 An animal encyclopedia application with the SwiftUI framework.
+
+
 #Topics Covered:
 JSON with Swift.
 
