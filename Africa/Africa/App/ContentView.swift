@@ -60,6 +60,7 @@ struct ContentView: View {
                         .animation(.easeIn)
                     }
                 }
+                CreditsView()
             }
             .navigationBarTitle("Africa" , displayMode: .large)
             .toolbar {
