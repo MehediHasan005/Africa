@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558AEC482931F7070008FD0A /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AEC472931F7070008FD0A /* VideoListItemView.swift */; };
+		558AEC4A2931FFAA0008FD0A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AEC492931FFAA0008FD0A /* VideoPlayerView.swift */; };
+		558AEC4D293201EB0008FD0A /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AEC4C293201EB0008FD0A /* VideoPlayerHelper.swift */; };
+		558AEC4F293218CE0008FD0A /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AEC4E293218CE0008FD0A /* LocationModel.swift */; };
+		558AEC5129321EB50008FD0A /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AEC5029321EB50008FD0A /* MapAnnotationView.swift */; };
+		558AEC53293223B30008FD0A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AEC52293223B30008FD0A /* MotionAnimationView.swift */; };
 		559406952930F56F00EE19C9 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406942930F56F00EE19C9 /* AfricaApp.swift */; };
 		559406972930F56F00EE19C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406962930F56F00EE19C9 /* ContentView.swift */; };
 		559406992930F57000EE19C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559406982930F57000EE19C9 /* Assets.xcassets */; };
@@ -64,6 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558AEC472931F7070008FD0A /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		558AEC492931FFAA0008FD0A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		558AEC4C293201EB0008FD0A /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		558AEC4E293218CE0008FD0A /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		558AEC5029321EB50008FD0A /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		558AEC52293223B30008FD0A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		559406912930F56F00EE19C9 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559406942930F56F00EE19C9 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		559406962930F56F00EE19C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		558AEC4B293201BD0008FD0A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				558AEC4C293201EB0008FD0A /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		559406882930F56F00EE19C9 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +175,7 @@
 		559406932930F56F00EE19C9 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				558AEC4B293201BD0008FD0A /* Helper */,
 				55E197B52930FE8200F13EC3 /* ViewModel */,
 				55E197B22930FE2C00F13EC3 /* Models */,
 				55E197B12930FDF800F13EC3 /* Views */,
@@ -245,6 +266,10 @@
 				55E197C429310E9000F13EC3 /* InsetFactView.swift */,
 				55E197C62931127D00F13EC3 /* InsetMapView.swift */,
 				55E197C82931161800F13EC3 /* ExternalWebLinkView.swift */,
+				558AEC472931F7070008FD0A /* VideoListItemView.swift */,
+				558AEC492931FFAA0008FD0A /* VideoPlayerView.swift */,
+				558AEC5029321EB50008FD0A /* MapAnnotationView.swift */,
+				558AEC52293223B30008FD0A /* MotionAnimationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +280,7 @@
 				55E197B32930FE5500F13EC3 /* CoverImageModel.swift */,
 				55E197BC2931007E00F13EC3 /* AnimalModel.swift */,
 				55E197CA2931CC0D00F13EC3 /* VideoModel.swift */,
+				558AEC4E293218CE0008FD0A /* LocationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -421,14 +447,20 @@
 				55E197B92930FEF100F13EC3 /* CoverImageView.swift in Sources */,
 				55E197B02930FD8F00F13EC3 /* VideoListView.swift in Sources */,
 				55E197C72931127D00F13EC3 /* InsetMapView.swift in Sources */,
+				558AEC4D293201EB0008FD0A /* VideoPlayerHelper.swift in Sources */,
 				55E197AA2930FCF400F13EC3 /* MapView.swift in Sources */,
 				55E197C92931161800F13EC3 /* ExternalWebLinkView.swift in Sources */,
+				558AEC5129321EB50008FD0A /* MapAnnotationView.swift in Sources */,
 				55E197BF293101C500F13EC3 /* AnimalDetailsView.swift in Sources */,
 				55E197CB2931CC0D00F13EC3 /* VideoModel.swift in Sources */,
 				559406952930F56F00EE19C9 /* AfricaApp.swift in Sources */,
+				558AEC4F293218CE0008FD0A /* LocationModel.swift in Sources */,
 				55E197C32931063100F13EC3 /* InsetGalleryView.swift in Sources */,
+				558AEC482931F7070008FD0A /* VideoListItemView.swift in Sources */,
 				55E197AC2930FD1100F13EC3 /* GalleryView.swift in Sources */,
+				558AEC53293223B30008FD0A /* MotionAnimationView.swift in Sources */,
 				55E197C12931045900F13EC3 /* HeadingView.swift in Sources */,
+				558AEC4A2931FFAA0008FD0A /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +627,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -625,7 +657,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -647,7 +679,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.AfricaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -666,7 +698,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.AfricaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -684,7 +716,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.AfricaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -702,7 +734,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.AfricaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
